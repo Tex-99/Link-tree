@@ -1,0 +1,43 @@
+body {
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#contenuto {
+    padding-bottom: 50px;
+    margin: auto;
+    text-align: center;
+    padding-top: 1px;
+    height: auto;
+    width: 350px;
+    border-radius: 10px;
+    background-color: rgb(46, 46, 46);
+}
+.me {
+    width: 20%;
+    max-width: 300px;
+    min-width: none;
+    border-radius: 500px;
+}
+.indirizzo {
+    color: lab(90.76% -53.96 87.22);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.social {
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(74, 74, 74);
+    border-radius: 5px;
+    width: 80%;
+    height: 35px; 
+    transition: 500ms;
+}
+.social:hover {
+    background-color: gray;
+}
